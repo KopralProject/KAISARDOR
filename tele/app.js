@@ -31,12 +31,12 @@ const CONFIG = {
         logoPath: path.join(__dirname, 'logo.png')
     },
     dorConfig: {
-        apiUrl: 'https://www.xl.co.id/api/v1/dor',
+        apiUrl: 'https://hijaubiru.my.id/api/v1/dor',
         apiKey: process.env.DOR_API_KEY
     },
     otpConfig: {
-        requestUrl: 'https://www.xl.co.id/api/v1/minta-otp',
-        verifyUrl: 'https://www.xl.co.id/api/v1/verif-otp'
+        requestUrl: 'https://hijaubiru.my.id/api/v1/minta-otp',
+        verifyUrl: 'https://hijaubiru.my.id/api/v1/verif-otp'
     }
 };
 
