@@ -31,12 +31,12 @@ const CONFIG = {
         logoPath: path.join(__dirname, 'logo.png')
     },
     dorConfig: {
-        apiUrl: 'https://api.tuyull.my.id/api/v1/dor',
+        apiUrl: 'https://www.xl.co.id/api/v1/dor',
         apiKey: process.env.DOR_API_KEY
     },
     otpConfig: {
-        requestUrl: 'https://api.tuyull.my.id/api/v1/minta-otp',
-        verifyUrl: 'https://api.tuyull.my.id/api/v1/verif-otp'
+        requestUrl: 'https://www.xl.co.id/api/v1/minta-otp',
+        verifyUrl: 'https://www.xl.co.id/api/v1/verif-otp'
     }
 };
 
